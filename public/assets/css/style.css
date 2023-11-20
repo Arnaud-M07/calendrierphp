@@ -1,0 +1,67 @@
+body{
+    background: radial-gradient(circle, rgba(255,200,221,.4) 0%, rgba(189,224,254,.4) 80%);
+}
+
+.submit-title{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: stretch !important;
+}
+
+.select-month{
+    height: 100%;
+    border: 1px solid #F8F8F8;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    padding: 7px;
+    background: #ffffff69;
+    color: #3a86ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-letsgo{
+    height: 100%;
+    border: 1px solid #F8F8F8 !important;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    padding: 7px;
+    background: #ffffff69 !important;
+    margin-top: -4px;
+}
+
+h1{
+    font-weight: bold;
+    color: #232424;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr repeat(6, 3.5fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
+.case-num{
+    border: 1px solid #F8F8F8;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 7px;
+    background: #ffffff69;
+    color: #3a86ff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.case-lit{
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+    color: #3a86ff;
+}
